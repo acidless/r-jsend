@@ -1,9 +1,12 @@
 {
   "name": "r-jsend",
-  "version": "1.1.2",
+  "version": "2.0.5",
   "description": "A package that allows serialize data into the JSend specification format",
-  "main": "index.js",
-  "files": ["lib/**/*"],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/odkukunov/r-jsend.git"
@@ -17,6 +20,7 @@
   "author": "Oleg Kukunov <odkukunov@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^14.14.37",
     "typescript": "^4.2.3"
   }
 }
