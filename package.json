@@ -1,8 +1,9 @@
 {
   "name": "r-jsend",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A package that allows serialize data into the JSend specification format",
   "main": "index.ts",
+  "files": ["lib/**/*"],
   "repository": {
     "type": "git",
     "url": "https://github.com/odkukunov/r-jsend.git"
